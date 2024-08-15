@@ -60,3 +60,48 @@ nav a {
   display: flex;
   gap: 2vw;
 }
+
+/* PART 1 */
+
+.part-1 {
+  width: 100%;
+  border: 1px solid red;
+  height: 80vh;
+  background-color: #111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.5vh;
+}
+
+.part-1 h1 {
+  margin-top: -10vh;
+  font-size: 7vw;
+  font-family: GilroyBold;
+  text-align: center;
+}
+
+.part-1 p {
+  font-size: 1.5vw;
+  font-family: GilroyBold;
+  text-align: center;
+}
+
+.part-1 button {
+  padding: 1vw 3vw;
+  font-size: 1.2vw;
+  border: 1px solid #111;
+  border-radius: 50px;
+  font-family: GilroyBold;
+  background-color: #fff;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.part-1 button:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
