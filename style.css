@@ -1,0 +1,62 @@
+@font-face {
+  font-family: GilroyBold;
+  src: url(assets/Fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: GilroyRegular;
+  src: url(assets/Fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: GilroySemiBold;
+  src: url(assets/Fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: FontOne;
+  src: url(assets/Fonts/KFOlCnqEu92Fr1MmEU9fBBc4.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GilroyRegular;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#main {
+  /* border: 1px solid lime; */
+  width: 100%;
+  min-height: 100vh;
+}
+nav {
+  background: #111;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  padding: 0vw 10vw;
+}
+
+nav img {
+  width: 3vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-family: GilroyBold;
+}
+
+.right-nav {
+  /* border: 1px solid lightpink; */
+  display: flex;
+  gap: 2vw;
+}
