@@ -122,35 +122,95 @@ nav a {
   overflow: hidden;
 }
 
+.part-2 img {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
 #imgthree {
   position: absolute;
-  bottom: -5vh;
+  bottom: -50vh;
   z-index: 5;
 }
 
 #imgtwo,
 #imgfour {
-  /* position: absolute; */
-  margin-bottom: -35vh;
+  position: absolute;
   z-index: 4;
+  bottom: -50vh;
 }
 
-#imgtwo,
+#imgtwo {
+  left: 25%;
+}
+
 #imgfour {
-  /* position: absolute; */
-  margin-bottom: -35vh;
-  z-index: 3;
+  right: 25%;
 }
 
 #imgone,
 #imgfive {
-  margin-bottom: -45vh;
+  position: absolute;
+  bottom: -50vh;
 }
 
 #imgone {
-  margin-right: -10vw;
+  left: 10%;
 }
 
 #imgfive {
-  margin-left: -10vw;
+  right: 10%;
+}
+
+/* PART 3 */
+.part-same {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  padding: 0vw 10vw;
+  color: #fff;
+}
+
+.part-3 {
+  background-image: url(/assets/IMG/deserve-more-bg.jpg);
+}
+
+.part-same h1 {
+  font-size: 5vw;
+  font-family: GilroyBold;
+  line-height: 10vh;
+}
+
+.part-same h3 {
+  font-size: 1.5vw;
+  font-family: GilroyBold;
+  margin-bottom: 10vh;
+  margin-top: 3vh;
+}
+
+.part-same p {
+  font-size: 1vw;
+  font-family: GilroyBold;
+  width: 45%;
+}
+
+.part-same button {
+  margin-top: 5vh;
+  padding: 1vw 3vw;
+  font-size: 1.2vw;
+  border: 1px solid #111;
+  border-radius: 50px;
+  font-family: GilroyBold;
+  background-color: #fff;
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.part-same button:hover {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
 }
