@@ -214,3 +214,24 @@ nav a {
   background-color: transparent;
   cursor: pointer;
 }
+
+.strip {
+  width: 100%;
+  height: 20vh;
+  border: 1px solid green;
+  display: flex;
+  align-items: start;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0vw 10vw;
+  gap: 5vh;
+}
+
+.strip h3 {
+  font-size: 1.3vw;
+}
+
+.strip img {
+  width: 80vw;
+}
